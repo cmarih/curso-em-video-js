@@ -4,7 +4,7 @@
 
 - Introdução e familiaridade com a linguagem e ferramentas a ser utilizada. 
 
-- [Primeiros scripts](https://github.com/cmarih/curso-em-video-js/blob/master/modulo-a.md)
+- [Primeiros scripts](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-A/modulo-a.md)
 
 <h2>Módulo B</h2>
 
