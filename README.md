@@ -8,4 +8,4 @@
 
 <h2>Módulo B</h2>
 
-- [Variáveis, tipos de dados e operadores](https://github.com/cmarih/curso-em-video-js/blob/master/modulo-b.md)
+- [Variáveis, tipos de dados e operadores](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-B/modulo-b.md)

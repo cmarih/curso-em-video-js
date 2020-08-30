@@ -33,7 +33,7 @@
 
 <h2> Transformando Valores:</h2>
 
-1. String para Number: 
+<h3> <strong> String para Number:</strong></h3> 
 
 ~~~JAVASCRIPT
  //Numero inteiro
@@ -46,7 +46,7 @@
     Number();
 ~~~
 
-2. Number para String:
+<h3><strong> Number para String:</strong></h3>
 
 ~~~JAVASCRIPT
     String();
@@ -77,7 +77,8 @@
         window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`);
 ~~~
 
-1. Quantidade de caracteres em uma string (.length):
+<h3><strong>Quantidade de caracteres em uma string (.length):</strong></h3>
+
 ~~~JAVASCRIPT
     //Contagem de caracteres em um nome:
     var name = window.prompt('Qual é o seu nome?');
@@ -85,19 +86,22 @@
     document.write(`Olá ${name}! Seu nome tem ${name.length} letras.`)
 ~~~
 
-2. Transformando texto em MAIÚSCULO (.toUpperCase() ):
+<h3><strong> Transformando texto em MAIÚSCULO (.toUpperCase() ):</strong></h3>
+
 ~~~JAVASCRIPT
      var name = window.prompt('Qual é o seu nome?');
 
     document.write(`Seu nome em maiúsculo é ${name.toUpperCase()}`)
 ~~~
-3. Transformando texto em MINUSCULO (.toLowerCase() ):
+<h3><strong> Transformando texto em MINUSCULO (.toLowerCase() ):</strong></h3>
+
 ~~~JAVASCRIPT
     var name = window.prompt('Qual é o seu nome?');
 
     document.write(`Seu nome em minusculo é ${name.toLowerCase()}`)
 ~~~
-5. Transformando ponto (.) em virgula (,) e adicionando casas decimais:
+<h3><strong> Transformando ponto (.) em virgula (,) e adicionando casas decimais:</strong></h3>
+
 ~~~JAVASCRIPT
     var n1 = 1545.50;
     //Adicionando casa decimal:
@@ -105,7 +109,9 @@
     //Transformando (.) em (,);
     .replace('.',',');
 ~~~
-4. Conversão para moeda local:
+
+<h3><strong> Conversão para moeda local: </strong></h3>
+ 
 ~~~JAVASCRIPT
     var n1 = 1545.50;
     //Real:
@@ -117,7 +123,7 @@
 ~~~
 
 # Operadores 
-1. Aritméticos:
+<h2> 1. <strong> Aritmético: </strong></h2>
 
         1.1. Adição (+)
 
@@ -157,9 +163,9 @@ Ordem | Operador | Descrição
     //Valor dos calculos no navegador: 8 | 3 | 45 | 6| 2 | 3
 ~~~
 <br>
-<h3><strong>Auto-atribuições</strong></h3>
 
-O valor da variável é substituído conforme for acrescendo valores.
+<h2> 2. <strong> Atribuição: </strong></h2>
+O valor da variável é substituído conforme for acrescentando valores.
 <br>
 
 ~~~JAVASCRIPT
@@ -172,7 +178,7 @@ O valor da variável é substituído conforme for acrescendo valores.
 ~~~
 
 <br>
-<h3><strong>Incremento</strong></h3>
+<h3><strong>Incremento:</strong></h3>
 
 ~~~JAVASCRIPT
 //EXEMPLO
@@ -191,10 +197,204 @@ O valor da variável é substituído conforme for acrescendo valores.
 //Valor no navegador: 6 | 5
 
 ~~~
+<h2> 3. <strong> Relacionais: </strong></h2>
 
+1. Maior (>):
+~~~JAVASCRIPT
+        var a = 5;
+        var b = 2;
+        document.write(`${a>b}` );
 
-2. Atribuição:
-3. Relacionais:
-4. Lógicos:
-5. Ternários:
+    //Visualização no navegador: true
+~~~
+
+2. Menor (<):
+~~~JAVASCRIPT
+        var a = 5;
+        var b = 2;
+        document.write(`${a<b}` );
+
+    //Visualização no navegador: false
+~~~
+
+3. Maior ou igual (>=):
+~~~JAVASCRIPT
+        var a = 5;
+        var b = 2;
+        document.write(`${a>=b}` );
+        
+    //Visuaização no navegador: true
+~~~
+
+4. Menor ou igual (<=):
+~~~JAVASCRIPT
+        var a = 5;
+        var b = 2;
+        document.write(`${a<=b}` );
+
+    //Visuaização no navegador: false
+~~~
+
+4. Igual (==):
+~~~JAVASCRIPT
+        var a = 5;
+        var b = 2;
+        document.write(`${a==b}` );
+    //Visualização no navegador: false
+
+        var a = 5;
+        var b = 5;
+        document.write(`${a==b}` );
+    //Visualização no navegador: true
+~~~
+
+5. Diferente (!=):
+~~~JAVASCRIPT
+        var a = 5;
+        var b = 5;
+        document.write(`${a!=b}` );
+    //Visualização no navegador: false
+
+        var a = 5;
+        var b = 2;
+        document.write(`${a!=b}` );
+    //Visualização no navegador: true
+~~~
+
+6. Identidade(===):
+
+**Igualdade restrita:**
+~~~JAVASCRIPT
+    //Mesmo o valor de "B" sendo uma String, ele identifica como iguais, apesar de serem de tipos diferentes.
+        var a = 5;
+        var b = '5';
+        document.write(`${a==b}` );
+    //Visualização no navegador: true
+
+    //Por isso, utiliza-se o operador de identidade para diferencia-los.
+        var a = 5;
+        var b = '5';
+        document.write(`${a===b}` );
+    //Visualização no navegador: false
+~~~
+
+**Desigualdade restrita**
+
+~~~JAVASCRIPT
+    //Mesmo o valor de "B" sendo uma String, ele identifica como iguais, apesar se serem de tipos diferentes.
+        var a = 5;
+        var b = '5';
+        document.write(`${a!=b}` );
+    //Visualização no navegador: false
+
+    //Por isso, utiliza-se o operador de identidade para diferencia-los.
+        var a = 5;
+        var b = '5';
+        document.write(`${a===b}` );
+    //Visualização no navegador: true
+~~~
+
+<h2> 4. <strong> Lógicos: </strong></h2>
+1. AND (&&): quando usado para valores Booleanos, && retorna verdadeiro se ambos os operandos forem verdadeiro ; senão, retorna falso.
+<br>
+<br>
+
+- true AND true = true 
+
+- true AND false = false 
+
+- false AND true = false 
+
+- false AND false = false
+
+~~~JAVASCRIPT
+        var a = 5;
+        var b = 2;
+        document.write(`${a > b && b % 2 == 0}` );
+
+        //Visualização no navegador: true
+
+        Para a expressão acima, primeiro é analisado a expressão aritmética (b % 2 que equivale a 0). Em seguida é realizada a comparação relacional 0==0 --> true), seguindo para a expressão relacional (a > b --> true), como ambas são verdade, realizamos a comparação (true && true --> true).
+~~~
+
+~~~JAVASCRIPT
+        var a = 5;
+        var b = 5;
+        document.write(`${a > b && b % 2 == 0}` );
+
+        //Visualização no navegador: false
+
+        Para a expressão acima, primeiro é analisado a expressão aritmética (b % 2 que equivale a 1). Em seguida é realizada a comparação relacional 1==0 --> false), seguindo para a expressão relacional (a > b --> false), como ambas NÃO são verdades, realizamos a comparação (false && false --> false).
+~~~
+
+~~~JAVASCRIPT
+        var a = 5;
+        var b = 4;
+        document.write(`${a > b && b % 2 == 1}` );
+
+        //Visualização no navegador: false
+
+        Para a expressão acima, primeiro é analisado a expressão aritmética (b % 2 que equivale a 0). Em seguida é realizada a comparação relacional 0==1 --> false), seguindo para a expressão relacional (a > b --> true), temos somente UMA verdade, realizamos então a comparação (false && true--> false)
+~~~
+
+2. OR (||): quando usado para valores Booleanos, || retorna verdadeiro se qualquer dos operandos for verdadeiro; se ambos são falso, retorna falso.
+<br>
+<br>
+- true OR true = true 
+
+- true OR false = true 
+
+- false OR true = true 
+
+- false OR false = false
+
+~~~JAVASCRIPT
+        var a = 6;
+        var b = 2;
+        document.write(`${a == b || b - 2 == 0}` );
+
+        //Visualização no navegador: true
+
+        Para a expressão acima, primeiro é analisado a expressão aritmética (b - 2 que equivale a 0). Em seguida é realizada a comparação relacional 0==0 --> true), seguindo para a expressão relacional (a == b --> false) e por ultimo a expressão lógica (||), temos somente UMA verdade, realizamos então a comparação (true || false --> true).
+~~~
+
+~~~JAVASCRIPT
+        var a = 6;
+        var b = 6;
+        document.write(`${a == b || b - 2 == 4}` );
+
+        //Visualização no navegador: true
+
+        Para a expressão acima, primeiro é analisado a expressão aritmética (b - 2 que equivale a 4). Em seguida é realizada a comparação relacional 4==4 --> true), seguindo para a expressão relacional (a == b --> true), sabemos que ambas são verdade, então realizamos a comparação (true || true --> true).
+~~~
+
+~~~JAVASCRIPT
+        var a = 6;
+        var b = 6;
+        document.write(`${a != b || b - 2 == 0}` );
+
+        //Visualização no navegador: false
+
+        Para a expressão acima, primeiro é analisado a expressão aritmética (b - 2 que equivale a 4). Em seguida é realizada a comparação relacional 4==0 --> false), seguindo para a expressão relacional (a != b --> false), sabemoa que ambas NÃO são verdade, logo, realizamos a compração (false || false --> false).
+~~~
+<h2> 5. <strong> Ternários: </strong></h2>
+
+- Possui três operandos. Este operador é frequentemente usado como um atalho para a instrução if. Representando da seguinte forma:
+
+~~~ JAVASCRIPT
+condition ? true : false 
+~~~
+
+~~~ JAVASCRIPT
+        idade = 18;
+        
+        document.write(`${idade>=18?'Permitido beber!':'Menor que 18, sai fora!'}` );
+    // Visualização no navegador: Permitido beber!
+
+        media = 5;
+        
+        document.write(`${media>=8?'Aprovado':'Reprovado'}` );
+    // Visualização no navegador: Reprovado
+~~~
+
 
