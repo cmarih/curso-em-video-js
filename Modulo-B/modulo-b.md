@@ -340,6 +340,7 @@ O valor da variável é substituído conforme for acrescentando valores.
 2. OR (||): quando usado para valores Booleanos, || retorna verdadeiro se qualquer dos operandos for verdadeiro; se ambos são falso, retorna falso.
 <br>
 <br>
+
 - true OR true = true 
 
 - true OR false = true 
@@ -388,12 +389,12 @@ condition ? true : false
 ~~~ JAVASCRIPT
         idade = 18;
         
-        document.write(`${idade>=18?'Permitido beber!':'Menor que 18, sai fora!'}` );
+        document.write(`${idade>=18 ? 'Permitido beber!':'Menor que 18, sai fora!'}` );
     // Visualização no navegador: Permitido beber!
 
         media = 5;
         
-        document.write(`${media>=8?'Aprovado':'Reprovado'}` );
+        document.write(`${media>=8 ? 'Aprovado':'Reprovado'}` );
     // Visualização no navegador: Reprovado
 ~~~
 
