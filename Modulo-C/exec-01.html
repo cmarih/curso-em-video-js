@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conhecendo o DOM</title>
+    
+    <style>
+        body{
+            background-color: brown;
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <H1> Entendendo o DOM</H1>
+    <p>
+        Primeiros passos.
+    </p>
+    <p>
+        Aprendendo a usar o <strong>DOM</strong> com JAVASCRIPT
+    </p>
+    
+    <div class="msg">
+        Clique em mim!
+    </div>
+    
+
+    <script>
+        var d = document.querySelector('div.msg')
+        
+        d.innerText = "Testando querySelector"
+    </script>
+</body>
+</html>
