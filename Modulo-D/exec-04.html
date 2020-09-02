@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+
+    <style>
+        body {
+            font: normal 15pt Arial;
+            color: cornflowerblue;
+        }
+        div{
+            padding-top: 2rem;
+            color: chocolate;
+        }
+        p{
+            font: bold 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Verifique sua nacionalidade: </h1>
+    
+    Informe seu país de origem: <input type="text" name="pais" id="pais">
+
+    <input type="button" value="verificar" onclick="verificar()">
+
+    <div id="nacional"></div>
+
+    <script>
+        function verificar(){
+            var pais = document.querySelector('input#pais');
+
+            var nacional = document.querySelector('div#nacional');
+
+            nacional.innerHTML = `Seu país de origem é: <strong>${pais.value}</strong>`
+
+            if (pais.value == 'brasil' || pais.value =='Brasil'|| pais.value =='BRASIL') {
+                nacional.innerHTML += '<p>Você é Brasileiro!</>'
+            }
+           else {
+                nacional.innerHTML += '<p>Você é Estrangeiro!</p'
+            }
+
+        }
+    </script>
+</body>
+</html>
