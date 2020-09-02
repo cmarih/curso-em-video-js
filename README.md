@@ -13,3 +13,7 @@
 <h2>Módulo C</h2>
 
 - [Entendendo o DOM | Eventos DOM](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-C/modulo-c.md)
+
+<h2>Módulo D</h2>
+
+- [Condições em JavaScript](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-D/modulo-d.md)

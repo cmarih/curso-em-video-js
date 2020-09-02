@@ -33,6 +33,6 @@ if(país != 'Brasil') {
 
 # Exercitando:
 
-- [Sistema de Multas:]() 
+- [Sistema de Multas:](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-D/exec-03.html) 
 
-- [Verificando Nacionalidade:]() 
+- [Verificando Nacionalidade:](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-D/exec-04.html) 
