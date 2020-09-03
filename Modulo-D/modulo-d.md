@@ -31,8 +31,72 @@ if(país != 'Brasil') {
 }
 ~~~
 
-# Exercitando:
+3. Condições Aninhadas:
+
+~~~javascript
+var idade = 12
+console.log(`Você tem ${idade} anos.`)
+
+if(idade < 16) {
+    console.log('Não vota.')
+} else {
+    if (idade < 18 || idade > 65){
+        console.log('Voto Opcional.')
+    }
+    else {
+        console.log('Voto Obrigatório.')
+    }
+}
+~~~
+3. Condição Multipla:
+~~~javascript
+var agora = new Date()
+var diadasemana = agora.getDay()
+
+switch(diadasemana){
+    case 0:
+        console.log('Domingo')
+        break
+    case 1:
+        console.log('Segunda-feira')
+        break
+    case 2:
+        console.log('Terça-feira')
+        break
+    case 3: 
+        console.log('Quarta-feira')
+        break
+    case 4: 
+        console.log('Quinta-feira')
+        break
+    case 5:
+        console.log('Sexta-feira')
+        break
+    case 6:
+        console.log('Sábado')
+        break
+    default:
+        break
+    
+}
+~~~
+
+# Exercitando Condição Simples/Composta:
 
 - [Sistema de Multas:](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-D/exec-03.html) 
 
 - [Verificando Nacionalidade:](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-D/exec-04.html) 
+
+# Exercitando Condições Aninhadas:
+
+- [Sistema de idade para votação:]() 
+
+- [Sistema de hora:]() 
+
+# Exercitando Condição Multipla:
+
+- [Sistema de idade para votação:]() 
+
+- [Sistema de hora:]() 
+
+<h1>Exercitando all</h1>

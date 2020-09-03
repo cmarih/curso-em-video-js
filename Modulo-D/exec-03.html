@@ -3,33 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DETRAN</title>
+    <title>Sistema de verificação de idade para votação</title>
+
+    <script type="text/javascript" src="/Modulo-D/exec-03.js"></script>
+
+    <style>
+        body{
+            background-color: gainsboro;
+            color: purple;
+            font: normal 16pt Arial;
+            text-align: center;
+        }
+        p, div{
+            font: bold 20pt Arial;
+            padding-top: 2rem;
+            text-align: center;
+        }
+        div{
+            margin-top: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Sistema de Multas</h1>
+    <h1>Verifique se sua votação é opcional.</h1>
+    
+    <p>Informe sua idade:  </p>
+    <input type="number" name="idade" id="idade">
+   
 
-    Velocidade do Veículo: <input type="number" name="txtvel" id="txtvel"> Km/h
+    <input type="button" value="verificar" onclick="verificar()">
 
-    <input type="button" value="Verificar" onclick="calcular()">
-
-    <div id="resultado"></div>
-
-    <script>
-        
-        function calcular(){
-            var txtvel = document.querySelector('input#txtvel')
-            var resultado = document.querySelector('div#resultado')
-            var vel = Number(txtvel.value)
-
-            resultado.innerHTML = `<p>Sua velocidade atual é de ${vel} km/h.</p>`
-
-            if (vel > 60) {
-                resultado.innerHTML += 'Você ultrapassou o limite de velocidade permitido. <strong>MULTADO</strong>'
-            }
-
-            resultado.innerHTML += '<p>Dirija sempre com cinto de segurança!</p>'
-        }
-    </script>
+    <div id="votação"></div>
 
 </body>
 </html>
