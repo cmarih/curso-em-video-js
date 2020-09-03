@@ -89,14 +89,12 @@ switch(diadasemana){
 
 # Exercitando Condições Aninhadas:
 
-- [Sistema de idade para votação:]() 
+- [Sistema de idade para votação:](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-D/exec-03.html) 
 
-- [Sistema de hora:]() 
+- [Sistema de hora:](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-D/exec-04.html) 
 
 # Exercitando Condição Multipla:
 
-- [Sistema de idade para votação:]() 
-
-- [Sistema de hora:]() 
+- [Sistema de verificação dia da semana:](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-D/exec-05.html) 
 
 <h1>Exercitando all</h1>
