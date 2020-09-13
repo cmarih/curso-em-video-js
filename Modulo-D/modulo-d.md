@@ -97,4 +97,4 @@ switch(diadasemana){
 
 - [Sistema de verificação dia da semana:](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-D/exec-05.html) 
 
-<h1>Exercitando all</h1>
+
