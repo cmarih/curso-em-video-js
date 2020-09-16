@@ -17,3 +17,7 @@
 <h2>Módulo D</h2>
 
 - [Condições em JavaScript](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-D/modulo-d.md)
+
+<h2>Módulo E</h2>
+
+- [Repetições em JavaScript](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-E/modulo-e.md)
