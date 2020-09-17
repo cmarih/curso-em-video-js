@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vamos Contar</title>
+    <title>Tabuada</title>
+
+    <link rel="stylesheet" href="/exercicio-final-04/style.css">
 </head>
 <body>
     <header>
-
+        <h1>Tabuada</h1>
     </header>
 
     <section>
         <div>
-
+            <p>
+                <label for="txtnumero">Número: </label>
+                <input type="number" name="numero" id="txtnumero">
+                <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+            </p>
         </div>
         <div>
-
+            <select name="tabuada" id="selecao-tabuada" size="10">
+               <option value="">Digite um numero acima</option>                 
+            </select>
         </div>
     </section>
 
     <footer>
         <p>&copy;Curso em Vídeo</p>
     </footer>
+
+    <script src="/exercicio-final-04/script.js"></script>
 </body>
 </html>
