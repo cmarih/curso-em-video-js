@@ -21,3 +21,5 @@
 <h2>Módulo E</h2>
 
 - [Repetições em JavaScript](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-E/modulo-e.md)
+
+- [Funções e Variaveis Compostas]()
