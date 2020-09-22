@@ -22,4 +22,8 @@
 
 - [Repetições em JavaScript](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-E/modulo-e.md)
 
-- [Funções e Variaveis Compostas]()
+<h2>Módulo F</h2>
+
+- [Funções](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-F/function/modulo-f.md)
+
+- [Variáveis Compostas](https://github.com/cmarih/curso-em-video-js/blob/master/Modulo-F/modulo-f.md)
